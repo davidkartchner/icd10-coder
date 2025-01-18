@@ -6,6 +6,11 @@ conda env create -f environment.yaml
 conda activate icd10
 ```
 
+Set OpenAI API Key environment variable
+```bash
+OPENAI_API_KEY=...
+```
+
 ## Launch API
 The multi-agent ICD10-CM coding system runs via FastAPI.  To launch the endpoint for processing notes through agents, run
 ```bash
