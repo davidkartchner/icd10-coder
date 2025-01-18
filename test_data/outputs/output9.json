@@ -1,0 +1,44 @@
+{
+    "icd10_codes": [
+        {
+            "code": "J15.20",
+            "description": "Pneumonia due to Streptococcus pneumoniae",
+            "evidence": "Sputum culture grows Streptococcus pneumoniae"
+        },
+        {
+            "code": "F03.90",
+            "description": "Unspecified dementia without behavioral disturbance",
+            "evidence": "history of dementia"
+        },
+        {
+            "code": "F05",
+            "description": "Delirium due to known physiological condition",
+            "evidence": "increased confusion for 3 days"
+        },
+        {
+            "code": "R50.9",
+            "description": "Fever, unspecified",
+            "evidence": "T 38.9°C"
+        },
+        {
+            "code": "J96.01",
+            "description": "Acute respiratory failure with hypoxia",
+            "evidence": "O2 sat 88% on room air"
+        },
+        {
+            "code": "E87.1",
+            "description": "Hypo-osmolality and hyponatremia",
+            "evidence": "Na 128 mEq/L"
+        },
+        {
+            "code": "D72.828",
+            "description": "Elevated white blood cell count",
+            "evidence": "WBC 15,000/μL with left shift"
+        },
+        {
+            "code": "Y95",
+            "description": "Nosocomial condition",
+            "evidence": "presents from nursing home... diagnosed with healthcare-associated pneumonia"
+        }
+    ]
+}

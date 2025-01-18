@@ -1,0 +1,44 @@
+{
+    "icd10_codes": [
+        {
+            "code": "K70.30",
+            "description": "Alcoholic cirrhosis of liver without ascites",
+            "evidence": "history of alcoholic cirrhosis"
+        },
+        {
+            "code": "I85.01",
+            "description": "Esophageal varices with bleeding",
+            "evidence": "Upper endoscopy reveals actively bleeding esophageal varices"
+        },
+        {
+            "code": "K92.0",
+            "description": "Hematemesis",
+            "evidence": "presents with hematemesis"
+        },
+        {
+            "code": "K92.1",
+            "description": "Melena",
+            "evidence": "and melena for the past 24 hours"
+        },
+        {
+            "code": "D64.9",
+            "description": "Anemia, unspecified",
+            "evidence": "Labs show Hgb 7.2 g/dL"
+        },
+        {
+            "code": "R18.8",
+            "description": "Other ascites",
+            "evidence": "Physical exam reveals ascites"
+        },
+        {
+            "code": "D69.49",
+            "description": "Other primary thrombocytopenia",
+            "evidence": "platelets 85,000/μL"
+        },
+        {
+            "code": "R55",
+            "description": "Syncope and collapse",
+            "evidence": "He reports fatigue, dizziness"
+        }
+    ]
+}

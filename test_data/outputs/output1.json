@@ -1,0 +1,39 @@
+{
+    "icd10_codes": [
+        {
+            "code": "J01.90",
+            "description": "Acute sinusitis, unspecified",
+            "evidence": "Once confirmed in the diagnosis of sinusitis in the cephalosporin, it was decided to admit the patient to the hospital for a correct evolutionary surveillance of the patient and start intravenous antibiotic treatment"
+        },
+        {
+            "code": "R50.9",
+            "description": "Fever, unspecified",
+            "evidence": "After a catarrhal of one week of evolution, with general malaise, dry cough and fever (up to 38.5 oC)"
+        },
+        {
+            "code": "R51",
+            "description": "Headache",
+            "evidence": "the patient develops global headache, more intense in the frontal region, in the last 48 hours"
+        },
+        {
+            "code": "B27.90",
+            "description": "Infectious mononucleosis, unspecified",
+            "evidence": "Among the personal history, only infectious mononucleosis stands out"
+        },
+        {
+            "code": "R21",
+            "description": "Rash and other nonspecific skin eruption",
+            "evidence": "A skin rash maculous and erythematous neck affects the trunk and neck"
+        },
+        {
+            "code": "D72.829",
+            "description": "Elevated white blood cell count, unspecified",
+            "evidence": "highlighting leukocytosis with the presence of young sinuses (cayed: 0,3dl)"
+        },
+        {
+            "code": "R09.81",
+            "description": "Nasal discharge",
+            "evidence": "Isolatedly, he had minimal purulent nasal secretion that has ever been bloody in recent days"
+        }
+    ]
+}

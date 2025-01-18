@@ -1,0 +1,39 @@
+{
+    "icd10_codes": [
+        {
+            "code": "K85.2",
+            "description": "Alcohol-induced acute pancreatitis",
+            "evidence": "History significant for heavy alcohol use... CT abdomen shows pancreatic inflammation"
+        },
+        {
+            "code": "F10.20",
+            "description": "Alcohol dependence, uncomplicated",
+            "evidence": "History significant for heavy alcohol use"
+        },
+        {
+            "code": "R10.13",
+            "description": "Epigastric pain",
+            "evidence": "presents with severe epigastric pain radiating to the back"
+        },
+        {
+            "code": "R11.2",
+            "description": "Nausea with vomiting",
+            "evidence": "nausea, and vomiting for the past 12 hours"
+        },
+        {
+            "code": "E83.51",
+            "description": "Hypocalcemia",
+            "evidence": "Ca 7.8 mg/dL"
+        },
+        {
+            "code": "N17.9",
+            "description": "Acute kidney failure, unspecified",
+            "evidence": "BUN 45 mg/dL"
+        },
+        {
+            "code": "D72.829",
+            "description": "Elevated white blood cell count, unspecified",
+            "evidence": "WBC 16,500/μL"
+        }
+    ]
+}

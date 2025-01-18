@@ -1,0 +1,39 @@
+{
+  "icd10_codes": [
+    {
+      "code": "J13",
+      "evidence": "Sputum culture grows Streptococcus pneumoniae.",
+      "description": "Pneumonia due to Streptococcus pneumoniae"
+    },
+    {
+      "code": "R09.02",
+      "evidence": "O2 sat 88% on room air.",
+      "description": "Hypoxemia"
+    },
+    {
+      "code": "R50.9",
+      "evidence": "presents from nursing home with fever",
+      "description": "Fever, unspecified"
+    },
+    {
+      "code": "R41.0",
+      "evidence": "increased confusion for 3 days",
+      "description": "Disorientation, unspecified"
+    },
+    {
+      "code": "E87.1",
+      "evidence": "Na 128 mEq/L",
+      "description": "Hypo-osmolality and hyponatremia"
+    },
+    {
+      "code": "F03.90",
+      "evidence": "history of dementia",
+      "description": "Unspecified dementia, unspecified severity, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety"
+    },
+    {
+      "code": "B95.3",
+      "evidence": "Sputum culture grows Streptococcus pneumoniae.",
+      "description": "Streptococcus pneumoniae as the cause of diseases classified elsewhere"
+    }
+  ]
+}

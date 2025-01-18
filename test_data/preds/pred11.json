@@ -1,0 +1,44 @@
+{
+  "icd10_codes": [
+    {
+      "code": "O14.13",
+      "evidence": "Patient diagnosed with preeclampsia with severe features",
+      "description": "Severe pre-eclampsia, third trimester"
+    },
+    {
+      "code": "R51.9",
+      "evidence": "presents with severe headache",
+      "description": "Headache, unspecified"
+    },
+    {
+      "code": "H53.8",
+      "evidence": "visual disturbances",
+      "description": "Other visual disturbances"
+    },
+    {
+      "code": "R10.11",
+      "evidence": "right upper quadrant pain",
+      "description": "Right upper quadrant pain"
+    },
+    {
+      "code": "R60.0",
+      "evidence": "3+ bilateral lower extremity edema",
+      "description": "Localized edema"
+    },
+    {
+      "code": "R29.2",
+      "evidence": "hyperreflexia",
+      "description": "Abnormal reflex"
+    },
+    {
+      "code": "R80.9",
+      "evidence": "Urine dipstick shows 3+ protein",
+      "description": "Proteinuria, unspecified"
+    },
+    {
+      "code": "D69.6",
+      "evidence": "platelets 90,000/\u03bcL",
+      "description": "Thrombocytopenia, unspecified"
+    }
+  ]
+}

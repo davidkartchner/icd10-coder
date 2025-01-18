@@ -1,0 +1,39 @@
+{
+    "icd10_codes": [
+        {
+            "code": "I21.0",
+            "description": "ST elevation (STEMI) myocardial infarction of anterior wall",
+            "evidence": "ECG shows ST-segment elevation in leads V1-V4. Initial troponin I is elevated at 2.3 ng/mL"
+        },
+        {
+            "code": "I10",
+            "description": "Essential (primary) hypertension",
+            "evidence": "Patient has a history of hypertension"
+        },
+        {
+            "code": "E11.9",
+            "description": "Type 2 diabetes mellitus without complications",
+            "evidence": "Patient has a history of type 2 diabetes mellitus"
+        },
+        {
+            "code": "R07.2",
+            "description": "Precordial pain",
+            "evidence": "acute onset of severe chest pain radiating to the left arm"
+        },
+        {
+            "code": "R06.02",
+            "description": "Shortness of breath",
+            "evidence": "associated with shortness of breath"
+        },
+        {
+            "code": "R11.0",
+            "description": "Nausea",
+            "evidence": "associated with shortness of breath, nausea"
+        },
+        {
+            "code": "Z98.61",
+            "description": "Coronary angioplasty status",
+            "evidence": "successfully treated with PCI and stent placement"
+        }
+    ]
+}

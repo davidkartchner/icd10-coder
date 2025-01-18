@@ -1,0 +1,54 @@
+{
+  "icd10_codes": [
+    {
+      "code": "K70.31",
+      "evidence": "history of alcoholic cirrhosis, abdominal distention and ascites",
+      "description": "Alcoholic cirrhosis of liver with ascites"
+    },
+    {
+      "code": "I85.11",
+      "evidence": "actively bleeding esophageal varices requiring band ligation",
+      "description": "Secondary esophageal varices with bleeding"
+    },
+    {
+      "code": "R53.83",
+      "evidence": "reports fatigue",
+      "description": "Other fatigue"
+    },
+    {
+      "code": "R42",
+      "evidence": "reports dizziness",
+      "description": "Dizziness and giddiness"
+    },
+    {
+      "code": "D64.9",
+      "evidence": "Hgb 7.2 g/dL",
+      "description": "Anemia, unspecified"
+    },
+    {
+      "code": "D73.1",
+      "evidence": "splenomegaly",
+      "description": "Hypersplenism"
+    },
+    {
+      "code": "R79.1",
+      "evidence": "INR 1.8",
+      "description": "Abnormal coagulation profile"
+    },
+    {
+      "code": "K76.6",
+      "evidence": "history of prior variceal bleeding",
+      "description": "Portal hypertension"
+    },
+    {
+      "code": "K92.0",
+      "evidence": "presents with hematemesis",
+      "description": "Hematemesis"
+    },
+    {
+      "code": "K92.1",
+      "evidence": "presents with melena",
+      "description": "Melena"
+    }
+  ]
+}

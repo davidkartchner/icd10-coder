@@ -1,0 +1,34 @@
+{
+  "icd10_codes": [
+    {
+      "code": "E10.10",
+      "evidence": "type 1 diabetes presents with polyuria, polydipsia, nausea, vomiting, and abdominal pain",
+      "description": "Type 1 diabetes mellitus with ketoacidosis without coma"
+    },
+    {
+      "code": "R06.4",
+      "evidence": "Kussmaul breathing",
+      "description": "Hyperventilation"
+    },
+    {
+      "code": "R53.83",
+      "evidence": "appears lethargic",
+      "description": "Other fatigue"
+    },
+    {
+      "code": "E87.5",
+      "evidence": "K 5.8 mEq/L",
+      "description": "Hyperkalemia"
+    },
+    {
+      "code": "E87.1",
+      "evidence": "Na 132 mEq/L",
+      "description": "Hypo-osmolality and hyponatremia"
+    },
+    {
+      "code": "E87.20",
+      "evidence": "pH 7.1, anion gap 22",
+      "description": "Acidosis, unspecified"
+    }
+  ]
+}

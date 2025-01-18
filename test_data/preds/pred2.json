@@ -1,0 +1,39 @@
+{
+  "icd10_codes": [
+    {
+      "code": "I21.09",
+      "evidence": "ECG shows ST-segment elevation in leads V1-V4",
+      "description": "ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall"
+    },
+    {
+      "code": "I10",
+      "evidence": "history of hypertension",
+      "description": "Essential (primary) hypertension"
+    },
+    {
+      "code": "E11.9",
+      "evidence": "history of type 2 diabetes mellitus",
+      "description": "Type 2 diabetes mellitus without complications"
+    },
+    {
+      "code": "R07.9",
+      "evidence": "acute onset of severe chest pain radiating to the left arm",
+      "description": "Chest pain, unspecified"
+    },
+    {
+      "code": "R06.02",
+      "evidence": "associated with shortness of breath",
+      "description": "Shortness of breath"
+    },
+    {
+      "code": "R11.0",
+      "evidence": "associated with nausea",
+      "description": "Nausea"
+    },
+    {
+      "code": "R61",
+      "evidence": "associated with profuse sweating",
+      "description": "Generalized hyperhidrosis"
+    }
+  ]
+}

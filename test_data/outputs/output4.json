@@ -1,0 +1,39 @@
+{
+    "icd10_codes": [
+        {
+            "code": "K35.80",
+            "description": "Unspecified acute appendicitis",
+            "evidence": "CT abdomen shows enlarged appendix with surrounding inflammation"
+        },
+        {
+            "code": "R10.31",
+            "description": "Right lower quadrant pain",
+            "evidence": "severe abdominal pain in the right lower quadrant that started 12 hours ago"
+        },
+        {
+            "code": "R11.2",
+            "description": "Nausea with vomiting, unspecified",
+            "evidence": "She reports nausea, vomiting"
+        },
+        {
+            "code": "R63.0",
+            "description": "Anorexia",
+            "evidence": "loss of appetite"
+        },
+        {
+            "code": "R50.9",
+            "description": "Fever, unspecified",
+            "evidence": "T 38.1°C"
+        },
+        {
+            "code": "D72.829",
+            "description": "Elevated white blood cell count, unspecified",
+            "evidence": "WBC count is 14,500/μL with neutrophilia"
+        },
+        {
+            "code": "0DTJ4ZZ",
+            "description": "Laparoscopic appendectomy",
+            "evidence": "Patient was taken to surgery for laparoscopic appendectomy"
+        }
+    ]
+}

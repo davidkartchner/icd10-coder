@@ -1,0 +1,19 @@
+{
+  "icd10_codes": [
+    {
+      "code": "K85.90",
+      "evidence": "Patient admitted for acute pancreatitis management.",
+      "description": "Acute pancreatitis without necrosis or infection, unspecified"
+    },
+    {
+      "code": "F10.10",
+      "evidence": "History significant for heavy alcohol use",
+      "description": "Alcohol abuse, uncomplicated"
+    },
+    {
+      "code": "E83.51",
+      "evidence": "Ca 7.8 mg/dL",
+      "description": "Hypocalcemia"
+    }
+  ]
+}

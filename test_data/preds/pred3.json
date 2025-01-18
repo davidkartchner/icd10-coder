@@ -1,0 +1,39 @@
+{
+  "icd10_codes": [
+    {
+      "code": "J44.1",
+      "evidence": "history of COPD presents with worsening shortness of breath over the past 3 days",
+      "description": "Chronic obstructive pulmonary disease with (acute) exacerbation"
+    },
+    {
+      "code": "R06.2",
+      "evidence": "reports increased cough with greenish sputum production and wheezing",
+      "description": "Wheezing"
+    },
+    {
+      "code": "R09.02",
+      "evidence": "O2 sat 88% on room air",
+      "description": "Hypoxemia"
+    },
+    {
+      "code": "R06.82",
+      "evidence": "RR 24/min",
+      "description": "Tachypnea, not elsewhere classified"
+    },
+    {
+      "code": "F17.210",
+      "evidence": "Current smoker with 40 pack-year history",
+      "description": "Nicotine dependence, cigarettes, uncomplicated"
+    },
+    {
+      "code": "J18.9",
+      "evidence": "patchy infiltrates in the right lower lobe",
+      "description": "Pneumonia, unspecified organism"
+    },
+    {
+      "code": "R06.02",
+      "evidence": "worsening shortness of breath over the past 3 days",
+      "description": "Shortness of breath"
+    }
+  ]
+}

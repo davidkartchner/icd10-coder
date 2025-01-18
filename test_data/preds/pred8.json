@@ -1,0 +1,24 @@
+{
+  "icd10_codes": [
+    {
+      "code": "M05.79",
+      "evidence": "Progressive joint pain, morning stiffness lasting >2 hours, and fatigue for the past 6 months. Physical exam reveals bilateral synovitis of MCPs, PIPs, and wrists with ulnar deviation. Both knees are warm and swollen. Labs show RF positive (75 IU/mL), anti-CCP positive (>200 U/mL), ESR 55 mm/hr, CRP 3.8 mg/dL. X-rays of hands show periarticular osteopenia and early erosive changes in several MCP joints.",
+      "description": "Rheumatoid arthritis with rheumatoid factor of multiple sites without organ or systems involvement"
+    },
+    {
+      "code": "M35.00",
+      "evidence": "Patient also reports occasional dry eyes and mouth.",
+      "description": "Sjogren syndrome, unspecified"
+    },
+    {
+      "code": "H04.123",
+      "evidence": "Patient also reports occasional dry eyes.",
+      "description": "Dry eye syndrome of bilateral lacrimal glands"
+    },
+    {
+      "code": "R68.2",
+      "evidence": "Patient also reports occasional dry mouth.",
+      "description": "Dry mouth, unspecified"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "icd10_codes": [
+    {
+      "code": "I63.311",
+      "evidence": "CT perfusion reveals salvageable penumbra in the right MCA territory.",
+      "description": "Cerebral infarction due to thrombosis of right middle cerebral artery"
+    },
+    {
+      "code": "I69.354",
+      "evidence": "Physical exam reveals left hemiparesis (2/5 strength upper and lower extremities).",
+      "description": "Hemiplegia and hemiparesis following cerebral infarction affecting left non-dominant side"
+    },
+    {
+      "code": "I69.392",
+      "evidence": "Physical exam reveals left facial droop.",
+      "description": "Facial weakness following cerebral infarction"
+    },
+    {
+      "code": "I10",
+      "evidence": "Past medical history includes hypertension.",
+      "description": "Essential (primary) hypertension"
+    },
+    {
+      "code": "I48.91",
+      "evidence": "Past medical history includes atrial fibrillation (not on anticoagulation).",
+      "description": "Unspecified atrial fibrillation"
+    },
+    {
+      "code": "E78.5",
+      "evidence": "Past medical history includes hyperlipidemia.",
+      "description": "Hyperlipidemia, unspecified"
+    },
+    {
+      "code": "R47.81",
+      "evidence": "Difficulty speaking that started 45 minutes ago.",
+      "description": "Slurred speech"
+    }
+  ]
+}

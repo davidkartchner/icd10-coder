@@ -1,0 +1,29 @@
+{
+  "icd10_codes": [
+    {
+      "code": "J01.90",
+      "evidence": "\"confirmed in the diagnosis of sinusitis\"",
+      "description": "Acute sinusitis, unspecified"
+    },
+    {
+      "code": "R50.9",
+      "evidence": "\"fever (up to 38.5 oC)\"",
+      "description": "Fever, unspecified"
+    },
+    {
+      "code": "R21",
+      "evidence": "\"A skin rash maculous and erythematous neck affects the trunk and neck\"",
+      "description": "Rash and other nonspecific skin eruption"
+    },
+    {
+      "code": "J00",
+      "evidence": "\"catarrhal of one week of evolution, with general malaise, dry cough\"",
+      "description": "Acute nasopharyngitis [common cold]"
+    },
+    {
+      "code": "R09.81",
+      "evidence": "\"minimal purulent nasal secretion\"",
+      "description": "Nasal congestion"
+    }
+  ]
+}

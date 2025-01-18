@@ -1,0 +1,24 @@
+{
+  "icd10_codes": [
+    {
+      "code": "K35.3",
+      "evidence": "CT abdomen shows enlarged appendix with surrounding inflammation. Physical exam reveals rebound tenderness and guarding in the RLQ, positive McBurney's point tenderness.",
+      "description": "Acute appendicitis with localized peritonitis"
+    },
+    {
+      "code": "R11.2",
+      "evidence": "She reports nausea, vomiting",
+      "description": "Nausea with vomiting, unspecified"
+    },
+    {
+      "code": "R63.0",
+      "evidence": "loss of appetite",
+      "description": "Anorexia"
+    },
+    {
+      "code": "D72.829",
+      "evidence": "WBC count is 14,500/\u03bcL with neutrophilia",
+      "description": "Elevated white blood cell count, unspecified"
+    }
+  ]
+}

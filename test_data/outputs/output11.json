@@ -1,0 +1,44 @@
+{
+    "icd10_codes": [
+        {
+            "code": "O14.13",
+            "description": "Severe pre-eclampsia, third trimester",
+            "evidence": "32 weeks gestation presents with severe headache, visual disturbances... BP 168/105 mmHg... Urine dipstick shows 3+ protein"
+        },
+        {
+            "code": "O12.04",
+            "description": "Gestational edema, third trimester",
+            "evidence": "shows 3+ bilateral lower extremity edema"
+        },
+        {
+            "code": "O26.613",
+            "description": "Liver and biliary tract disorders in pregnancy, third trimester",
+            "evidence": "AST 150 U/L, ALT 165 U/L"
+        },
+        {
+            "code": "D69.59",
+            "description": "Other secondary thrombocytopenia",
+            "evidence": "platelets 90,000/μL"
+        },
+        {
+            "code": "N17.9",
+            "description": "Acute kidney injury, unspecified",
+            "evidence": "creatinine 1.4 mg/dL"
+        },
+        {
+            "code": "R51",
+            "description": "Headache",
+            "evidence": "presents with severe headache"
+        },
+        {
+            "code": "H53.9",
+            "description": "Visual disturbance, unspecified",
+            "evidence": "visual disturbances"
+        },
+        {
+            "code": "R10.11",
+            "description": "Right upper quadrant pain",
+            "evidence": "right upper quadrant pain"
+        }
+    ]
+}

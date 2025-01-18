@@ -1,0 +1,44 @@
+{
+    "icd10_codes": [
+        {
+            "code": "M05.79",
+            "description": "Rheumatoid arthritis with involvement of multiple sites",
+            "evidence": "bilateral synovitis of MCPs, PIPs, and wrists with ulnar deviation. Both knees are warm and swollen"
+        },
+        {
+            "code": "M05.7A",
+            "description": "Rheumatoid arthritis with rheumatoid factor of multiple sites with involvement of other organs and systems",
+            "evidence": "RF positive (75 IU/mL), anti-CCP positive (>200 U/mL)"
+        },
+        {
+            "code": "M06.9",
+            "description": "Rheumatoid arthritis, unspecified",
+            "evidence": "X-rays of hands show periarticular osteopenia and early erosive changes"
+        },
+        {
+            "code": "R53.81",
+            "description": "Other malaise",
+            "evidence": "fatigue for the past 6 months"
+        },
+        {
+            "code": "M25.50",
+            "description": "Pain in unspecified joint",
+            "evidence": "progressive joint pain"
+        },
+        {
+            "code": "R68.83",
+            "description": "Chills",
+            "evidence": "morning stiffness lasting >2 hours"
+        },
+        {
+            "code": "H04.121",
+            "description": "Dry eye syndrome of right lacrimal gland",
+            "evidence": "Patient also reports occasional dry eyes"
+        },
+        {
+            "code": "K11.7",
+            "description": "Disturbances of salivary secretion",
+            "evidence": "reports occasional dry eyes and mouth"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "icd10_codes": [
+        {
+            "code": "E10.10",
+            "description": "Type 1 diabetes mellitus with ketoacidosis without coma",
+            "evidence": "type 1 diabetes presents with polyuria, polydipsia, nausea, vomiting... Labs show glucose 580 mg/dL... positive serum ketones"
+        },
+        {
+            "code": "E87.2",
+            "description": "Acidosis",
+            "evidence": "pH 7.1, anion gap 22, bicarbonate 12 mEq/L"
+        },
+        {
+            "code": "E87.5",
+            "description": "Hyperkalemia",
+            "evidence": "K 5.8 mEq/L"
+        },
+        {
+            "code": "E87.0",
+            "description": "Hyperosmolality and hypernatremia",
+            "evidence": "Calculated serum osmolality is 320 mOsm/kg"
+        },
+        {
+            "code": "R11.2",
+            "description": "Nausea with vomiting, unspecified",
+            "evidence": "nausea, vomiting"
+        },
+        {
+            "code": "R06.4",
+            "description": "Hyperventilation",
+            "evidence": "Kussmaul breathing"
+        },
+        {
+            "code": "Z91.120",
+            "description": "Patient's intentional underdosing of medication regimen due to financial hardship",
+            "evidence": "She ran out of insulin 2 days ago"
+        }
+    ]
+}

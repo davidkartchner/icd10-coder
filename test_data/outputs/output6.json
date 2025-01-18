@@ -1,0 +1,44 @@
+{
+    "icd10_codes": [
+        {
+            "code": "I63.411",
+            "description": "Cerebral infarction due to embolism of right middle cerebral artery",
+            "evidence": "CT perfusion reveals salvageable penumbra in the right MCA territory"
+        },
+        {
+            "code": "I48.91",
+            "description": "Unspecified atrial fibrillation",
+            "evidence": "Past medical history includes atrial fibrillation (not on anticoagulation)"
+        },
+        {
+            "code": "I10",
+            "description": "Essential (primary) hypertension",
+            "evidence": "Past medical history includes hypertension"
+        },
+        {
+            "code": "E78.5",
+            "description": "Dyslipidemia",
+            "evidence": "Past medical history includes hyperlipidemia"
+        },
+        {
+            "code": "G81.91",
+            "description": "Hemiplegia, unspecified affecting right dominant side",
+            "evidence": "left hemiparesis (2/5 strength upper and lower extremities)"
+        },
+        {
+            "code": "R47.1",
+            "description": "Dysarthria and anarthria",
+            "evidence": "difficulty speaking, dysarthria"
+        },
+        {
+            "code": "R29.810",
+            "description": "Facial weakness",
+            "evidence": "Physical exam reveals left facial droop"
+        },
+        {
+            "code": "3E03317",
+            "description": "Introduction of Other Thrombolytic into Peripheral Vein, Percutaneous Approach",
+            "evidence": "tPA was administered"
+        }
+    ]
+}

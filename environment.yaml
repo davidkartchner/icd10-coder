@@ -1,0 +1,30 @@
+name: icd10
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - conda
+  - mamba
+  - ipython
+  - jupyter
+  - ipykernel
+  - ca-certificates
+  - certifi
+  - openssl
+  - pandas
+  - pyreadstat
+  - scikit-learn
+  - matplotlib
+  - numpy
+  - elasticsearch
+  - black
+  - requests
+  - fastapi
+  - faiss-cpu
+  - rapidfuzz
+  - aiohttp
+  - pip:
+    - openai
+    - sentence-transformers
+    
+  

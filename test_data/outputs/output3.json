@@ -1,0 +1,39 @@
+{
+    "icd10_codes": [
+        {
+            "code": "J44.1",
+            "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+            "evidence": "72-year-old male with a history of COPD presents with worsening shortness of breath"
+        },
+        {
+            "code": "J18.9",
+            "description": "Pneumonia, unspecified organism",
+            "evidence": "increased cough with greenish sputum production and Chest X-ray shows hyperinflation and patchy infiltrates in the right lower lobe"
+        },
+        {
+            "code": "R06.02",
+            "description": "Shortness of breath",
+            "evidence": "presents with worsening shortness of breath over the past 3 days"
+        },
+        {
+            "code": "R06.2",
+            "description": "Wheezing",
+            "evidence": "wheezing. Physical exam reveals diffuse wheezing"
+        },
+        {
+            "code": "F17.210",
+            "description": "Nicotine dependence, cigarettes, uncomplicated",
+            "evidence": "Current smoker with 40 pack-year history"
+        },
+        {
+            "code": "R09.3",
+            "description": "Abnormal sputum",
+            "evidence": "increased cough with greenish sputum production"
+        },
+        {
+            "code": "J96.01",
+            "description": "Acute respiratory failure with hypoxia",
+            "evidence": "O2 sat 88% on room air. ABG shows PaO2 58 mmHg"
+        }
+    ]
+}
