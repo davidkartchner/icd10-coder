@@ -120,7 +120,7 @@ def analyze_predictions(validator: ICD10Validator) -> List[Dict]:
 
 def main():
     # Load ICD10 validator
-    icd10_data = pd.read_csv("data/icd10_all_codes.tsv", delimiter="\t")[
+    icd10_data = pd.read_csv("icd10_data/icd10_all_codes.tsv", delimiter="\t")[
         ["code", "description", "is_billable"]
     ].to_dict(orient="records")
     validator = ICD10Validator(icd10_data)
