@@ -1,0 +1,689 @@
+[
+  {
+    "file_pair": "pred1.json - output1.json",
+    "note_text": "An 18-year-old male patient presented to the emergency department with severe headache and fever due to lack of improvement with conventional treatment of viral upper respiratory infections.\nAmong the personal history, only infectious mononucleosis stands out.\nAfter a catarrhal of one week of evolution, with general malaise, dry cough and fever (up to 38.5 oC), the patient develops global headache, more intense in the frontal region, in the last 48 hours, initially without rhinorrhea.\nIsolatedly, he had minimal purulent nasal secretion that has ever been bloody in recent days.\nYou have not had loss of consciousness, seizures, thiram, or chills.\nOn physical examination, we found: Ta: 37.5 oC; TA: 137/73 mmHg; P: 71 bpm.\nGood general appearance with proper hydration and mucocutaneous perfusion.\nShe's not impressive.\nFebrile faces.\nNo painful spots in the percussion of the sinuses\nA skin rash maculous and erythematous neck affects the trunk and neck.\nLaterocervical, axillary, or inguinal lymphadenopathies are not present.\nCardiac auscultation revealed crack, without murmurs.\nPulmonary auscultation revealed a conserved vesicular murmur, with no presence of roncus, crackles or wheezing.\nThe abdomen is blunt, depressible and does not have masses or enlargement.\nThe upper and lower extremities do not present pathological data, with distal pulses present.\nThe neurological examination is strictly normal, with no data on focality or meningism.\nThe corresponding complementary examinations were performed, with a rigorously normal chest X-ray, non-pathological urine analysis and blood count, highlighting leukocytosis with the presence of young sinuses (cayed: 0,3dl) and differential diagnosis of glucose.\nAt the same time, a radiographic study of the paranasal sinuses in which no data compatible with sinusitis were observed; then, to rule out complications (such as thrombosis of the left cranial sinus or related encephalitis), the study showed.\n1.\nOnce confirmed in the diagnosis of sinusitis in the cephalosporin, it was decided to admit the patient to the hospital for a correct evolutionary surveillance of the patient and start intravenous antibiotic treatment with third generation cephalosporins, treatment with ceasymptomised headache 48 hours without complications.",
+    "jaccard_similarity": 0.5,
+    "common_codes": [
+      "R09.81",
+      "R50.9",
+      "J01.90",
+      "R21"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "J00",
+        "evidence": "\"catarrhal of one week of evolution, with general malaise, dry cough\"",
+        "description": "Acute nasopharyngitis [common cold]"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "R51",
+        "description": "Headache",
+        "evidence": "the patient develops global headache, more intense in the frontal region, in the last 48 hours"
+      },
+      {
+        "code": "B27.90",
+        "description": "Infectious mononucleosis, unspecified",
+        "evidence": "Among the personal history, only infectious mononucleosis stands out"
+      },
+      {
+        "code": "D72.829",
+        "description": "Elevated white blood cell count, unspecified",
+        "evidence": "highlighting leukocytosis with the presence of young sinuses (cayed: 0,3dl)"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": [
+        "R51"
+      ]
+    }
+  },
+  {
+    "file_pair": "pred10.json - output10.json",
+    "note_text": "A 52-year-old male presents to the ED with severe epigastric pain radiating to the back, nausea, and vomiting for the past 12 hours. History significant for heavy alcohol use and fatty food consumption the night before. Vital signs: T 38.2\u00b0C, BP 135/85 mmHg, HR 102 bpm. Physical exam reveals epigastric tenderness with guarding. Labs show lipase 1200 U/L, amylase 450 U/L, WBC 16,500/\u03bcL, Ca 7.8 mg/dL, BUN 45 mg/dL. CT abdomen shows pancreatic inflammation with peripancreatic fluid and no evidence of gallstones. Patient admitted for acute pancreatitis management.",
+    "jaccard_similarity": 0.1111111111111111,
+    "common_codes": [
+      "E83.51"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "K85.90",
+        "evidence": "Patient admitted for acute pancreatitis management.",
+        "description": "Acute pancreatitis without necrosis or infection, unspecified"
+      },
+      {
+        "code": "F10.10",
+        "evidence": "History significant for heavy alcohol use",
+        "description": "Alcohol abuse, uncomplicated"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "K85.2",
+        "description": "Alcohol-induced acute pancreatitis",
+        "evidence": "History significant for heavy alcohol use... CT abdomen shows pancreatic inflammation"
+      },
+      {
+        "code": "F10.20",
+        "description": "Alcohol dependence, uncomplicated",
+        "evidence": "History significant for heavy alcohol use"
+      },
+      {
+        "code": "R10.13",
+        "description": "Epigastric pain",
+        "evidence": "presents with severe epigastric pain radiating to the back"
+      },
+      {
+        "code": "R11.2",
+        "description": "Nausea with vomiting",
+        "evidence": "nausea, and vomiting for the past 12 hours"
+      },
+      {
+        "code": "N17.9",
+        "description": "Acute kidney failure, unspecified",
+        "evidence": "BUN 45 mg/dL"
+      },
+      {
+        "code": "D72.829",
+        "description": "Elevated white blood cell count, unspecified",
+        "evidence": "WBC 16,500/\u03bcL"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": [
+        "K85.2"
+      ]
+    }
+  },
+  {
+    "file_pair": "pred11.json - output11.json",
+    "note_text": "A 29-year-old female at 32 weeks gestation presents with severe headache, visual disturbances, and right upper quadrant pain. BP 168/105 mmHg, HR 88 bpm. Urine dipstick shows 3+ protein. Labs reveal platelets 90,000/\u03bcL, AST 150 U/L, ALT 165 U/L, creatinine 1.4 mg/dL. Physical exam shows 3+ bilateral lower extremity edema and hyperreflexia. Fetal heart rate monitoring shows reassuring pattern. Patient diagnosed with preeclampsia with severe features and admitted for magnesium sulfate therapy and possible delivery.",
+    "jaccard_similarity": 0.14285714285714285,
+    "common_codes": [
+      "R10.11",
+      "O14.13"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "R51.9",
+        "evidence": "presents with severe headache",
+        "description": "Headache, unspecified"
+      },
+      {
+        "code": "H53.8",
+        "evidence": "visual disturbances",
+        "description": "Other visual disturbances"
+      },
+      {
+        "code": "R60.0",
+        "evidence": "3+ bilateral lower extremity edema",
+        "description": "Localized edema"
+      },
+      {
+        "code": "R29.2",
+        "evidence": "hyperreflexia",
+        "description": "Abnormal reflex"
+      },
+      {
+        "code": "R80.9",
+        "evidence": "Urine dipstick shows 3+ protein",
+        "description": "Proteinuria, unspecified"
+      },
+      {
+        "code": "D69.6",
+        "evidence": "platelets 90,000/\u03bcL",
+        "description": "Thrombocytopenia, unspecified"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "O12.04",
+        "description": "Gestational edema, third trimester",
+        "evidence": "shows 3+ bilateral lower extremity edema"
+      },
+      {
+        "code": "O26.613",
+        "description": "Liver and biliary tract disorders in pregnancy, third trimester",
+        "evidence": "AST 150 U/L, ALT 165 U/L"
+      },
+      {
+        "code": "D69.59",
+        "description": "Other secondary thrombocytopenia",
+        "evidence": "platelets 90,000/\u03bcL"
+      },
+      {
+        "code": "N17.9",
+        "description": "Acute kidney injury, unspecified",
+        "evidence": "creatinine 1.4 mg/dL"
+      },
+      {
+        "code": "R51",
+        "description": "Headache",
+        "evidence": "presents with severe headache"
+      },
+      {
+        "code": "H53.9",
+        "description": "Visual disturbance, unspecified",
+        "evidence": "visual disturbances"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": [
+        "R51"
+      ]
+    }
+  },
+  {
+    "file_pair": "pred2.json - output2.json",
+    "note_text": "A 45-year-old female presents to the emergency department with acute onset of severe chest pain radiating to the left arm, which started 2 hours ago while at rest. The pain is described as crushing and is associated with shortness of breath, nausea, and profuse sweating. Patient has a history of hypertension and type 2 diabetes mellitus. Vital signs show BP 160/95 mmHg, HR 102 bpm, RR 24/min, O2 sat 94% on room air. Physical examination reveals an anxious patient in acute distress. Cardiac examination shows regular rhythm with S4 gallop. ECG shows ST-segment elevation in leads V1-V4. Initial troponin I is elevated at 2.3 ng/mL. Patient was immediately taken to the cardiac catheterization lab where 100% occlusion of the left anterior descending artery was found and successfully treated with PCI and stent placement.",
+    "jaccard_similarity": 0.4,
+    "common_codes": [
+      "I10",
+      "R06.02",
+      "E11.9",
+      "R11.0"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "I21.09",
+        "evidence": "ECG shows ST-segment elevation in leads V1-V4",
+        "description": "ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall"
+      },
+      {
+        "code": "R07.9",
+        "evidence": "acute onset of severe chest pain radiating to the left arm",
+        "description": "Chest pain, unspecified"
+      },
+      {
+        "code": "R61",
+        "evidence": "associated with profuse sweating",
+        "description": "Generalized hyperhidrosis"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "I21.0",
+        "description": "ST elevation (STEMI) myocardial infarction of anterior wall",
+        "evidence": "ECG shows ST-segment elevation in leads V1-V4. Initial troponin I is elevated at 2.3 ng/mL"
+      },
+      {
+        "code": "R07.2",
+        "description": "Precordial pain",
+        "evidence": "acute onset of severe chest pain radiating to the left arm"
+      },
+      {
+        "code": "Z98.61",
+        "description": "Coronary angioplasty status",
+        "evidence": "successfully treated with PCI and stent placement"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": [
+        "I21.0"
+      ]
+    }
+  },
+  {
+    "file_pair": "pred3.json - output3.json",
+    "note_text": "A 72-year-old male with a history of COPD presents with worsening shortness of breath over the past 3 days. He reports increased cough with greenish sputum production and wheezing. He has been using his rescue inhaler more frequently with minimal relief. Current smoker with 40 pack-year history. Vital signs: T 38.2\u00b0C, BP 138/88 mmHg, HR 92 bpm, RR 24/min, O2 sat 88% on room air. Physical exam reveals increased work of breathing with accessory muscle use, diffuse wheezing, and prolonged expiratory phase. Chest X-ray shows hyperinflation and patchy infiltrates in the right lower lobe. ABG shows pH 7.32, PaCO2 48 mmHg, PaO2 58 mmHg.",
+    "jaccard_similarity": 0.5555555555555556,
+    "common_codes": [
+      "J18.9",
+      "J44.1",
+      "R06.2",
+      "F17.210",
+      "R06.02"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "R09.02",
+        "evidence": "O2 sat 88% on room air",
+        "description": "Hypoxemia"
+      },
+      {
+        "code": "R06.82",
+        "evidence": "RR 24/min",
+        "description": "Tachypnea, not elsewhere classified"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "R09.3",
+        "description": "Abnormal sputum",
+        "evidence": "increased cough with greenish sputum production"
+      },
+      {
+        "code": "J96.01",
+        "description": "Acute respiratory failure with hypoxia",
+        "evidence": "O2 sat 88% on room air. ABG shows PaO2 58 mmHg"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": []
+    }
+  },
+  {
+    "file_pair": "pred4.json - output4.json",
+    "note_text": "A 34-year-old female presents with sudden onset severe abdominal pain in the right lower quadrant that started 12 hours ago. The pain started periumbilically and migrated to the RLQ. She reports nausea, vomiting, and loss of appetite. No diarrhea or urinary symptoms. Last menstrual period was 2 weeks ago. Vital signs: T 38.1\u00b0C, BP 122/76 mmHg, HR 88 bpm, RR 18/min. Physical exam reveals rebound tenderness and guarding in the RLQ, positive McBurney's point tenderness. WBC count is 14,500/\u03bcL with neutrophilia. CT abdomen shows enlarged appendix with surrounding inflammation. Patient was taken to surgery for laparoscopic appendectomy.",
+    "jaccard_similarity": 0.375,
+    "common_codes": [
+      "R63.0",
+      "R11.2",
+      "D72.829"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "K35.3",
+        "evidence": "CT abdomen shows enlarged appendix with surrounding inflammation. Physical exam reveals rebound tenderness and guarding in the RLQ, positive McBurney's point tenderness.",
+        "description": "Acute appendicitis with localized peritonitis"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "K35.80",
+        "description": "Unspecified acute appendicitis",
+        "evidence": "CT abdomen shows enlarged appendix with surrounding inflammation"
+      },
+      {
+        "code": "R10.31",
+        "description": "Right lower quadrant pain",
+        "evidence": "severe abdominal pain in the right lower quadrant that started 12 hours ago"
+      },
+      {
+        "code": "R50.9",
+        "description": "Fever, unspecified",
+        "evidence": "T 38.1\u00b0C"
+      },
+      {
+        "code": "0DTJ4ZZ",
+        "description": "Laparoscopic appendectomy",
+        "evidence": "Patient was taken to surgery for laparoscopic appendectomy"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": [
+        "0DTJ4ZZ"
+      ]
+    },
+    "non_billable_codes": {
+      "pred": [
+        "K35.3"
+      ],
+      "output": []
+    }
+  },
+  {
+    "file_pair": "pred5.json - output5.json",
+    "note_text": "A 58-year-old male with a history of alcoholic cirrhosis presents with hematemesis and melena for the past 24 hours. He reports fatigue, dizziness, and abdominal distention. History of prior variceal bleeding. Physical exam reveals pale conjunctiva, spider angiomas on chest, ascites, and splenomegaly. Vital signs: BP 90/60 mmHg, HR 112 bpm, RR 20/min. Labs show Hgb 7.2 g/dL, platelets 85,000/\u03bcL, INR 1.8, total bilirubin 3.2 mg/dL, albumin 2.8 g/dL. Upper endoscopy reveals actively bleeding esophageal varices requiring band ligation.",
+    "jaccard_similarity": 0.2,
+    "common_codes": [
+      "K92.0",
+      "K92.1",
+      "D64.9"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "K70.31",
+        "evidence": "history of alcoholic cirrhosis, abdominal distention and ascites",
+        "description": "Alcoholic cirrhosis of liver with ascites"
+      },
+      {
+        "code": "I85.11",
+        "evidence": "actively bleeding esophageal varices requiring band ligation",
+        "description": "Secondary esophageal varices with bleeding"
+      },
+      {
+        "code": "R53.83",
+        "evidence": "reports fatigue",
+        "description": "Other fatigue"
+      },
+      {
+        "code": "R42",
+        "evidence": "reports dizziness",
+        "description": "Dizziness and giddiness"
+      },
+      {
+        "code": "D73.1",
+        "evidence": "splenomegaly",
+        "description": "Hypersplenism"
+      },
+      {
+        "code": "R79.1",
+        "evidence": "INR 1.8",
+        "description": "Abnormal coagulation profile"
+      },
+      {
+        "code": "K76.6",
+        "evidence": "history of prior variceal bleeding",
+        "description": "Portal hypertension"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "K70.30",
+        "description": "Alcoholic cirrhosis of liver without ascites",
+        "evidence": "history of alcoholic cirrhosis"
+      },
+      {
+        "code": "I85.01",
+        "description": "Esophageal varices with bleeding",
+        "evidence": "Upper endoscopy reveals actively bleeding esophageal varices"
+      },
+      {
+        "code": "R18.8",
+        "description": "Other ascites",
+        "evidence": "Physical exam reveals ascites"
+      },
+      {
+        "code": "D69.49",
+        "description": "Other primary thrombocytopenia",
+        "evidence": "platelets 85,000/\u03bcL"
+      },
+      {
+        "code": "R55",
+        "description": "Syncope and collapse",
+        "evidence": "He reports fatigue, dizziness"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": []
+    }
+  },
+  {
+    "file_pair": "pred6.json - output6.json",
+    "note_text": "A 68-year-old female presents with acute onset left-sided weakness and difficulty speaking that started 45 minutes ago while watching TV. Past medical history includes hypertension, atrial fibrillation (not on anticoagulation), and hyperlipidemia. Vital signs: BP 178/95 mmHg, HR 88 irregular, RR 16/min, O2 sat 98%. NIHSS score is 14. Physical exam reveals left facial droop, dysarthria, left hemiparesis (2/5 strength upper and lower extremities), and left sensory deficit. CT head without contrast shows no hemorrhage. CT perfusion reveals salvageable penumbra in the right MCA territory. tPA was administered followed by mechanical thrombectomy.",
+    "jaccard_similarity": 0.25,
+    "common_codes": [
+      "I10",
+      "E78.5",
+      "I48.91"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "I63.311",
+        "evidence": "CT perfusion reveals salvageable penumbra in the right MCA territory.",
+        "description": "Cerebral infarction due to thrombosis of right middle cerebral artery"
+      },
+      {
+        "code": "I69.354",
+        "evidence": "Physical exam reveals left hemiparesis (2/5 strength upper and lower extremities).",
+        "description": "Hemiplegia and hemiparesis following cerebral infarction affecting left non-dominant side"
+      },
+      {
+        "code": "I69.392",
+        "evidence": "Physical exam reveals left facial droop.",
+        "description": "Facial weakness following cerebral infarction"
+      },
+      {
+        "code": "R47.81",
+        "evidence": "Difficulty speaking that started 45 minutes ago.",
+        "description": "Slurred speech"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "I63.411",
+        "description": "Cerebral infarction due to embolism of right middle cerebral artery",
+        "evidence": "CT perfusion reveals salvageable penumbra in the right MCA territory"
+      },
+      {
+        "code": "G81.91",
+        "description": "Hemiplegia, unspecified affecting right dominant side",
+        "evidence": "left hemiparesis (2/5 strength upper and lower extremities)"
+      },
+      {
+        "code": "R47.1",
+        "description": "Dysarthria and anarthria",
+        "evidence": "difficulty speaking, dysarthria"
+      },
+      {
+        "code": "R29.810",
+        "description": "Facial weakness",
+        "evidence": "Physical exam reveals left facial droop"
+      },
+      {
+        "code": "3E03317",
+        "description": "Introduction of Other Thrombolytic into Peripheral Vein, Percutaneous Approach",
+        "evidence": "tPA was administered"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": [
+        "3E03317"
+      ]
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": []
+    }
+  },
+  {
+    "file_pair": "pred7.json - output7.json",
+    "note_text": "A 23-year-old female with type 1 diabetes presents with polyuria, polydipsia, nausea, vomiting, and abdominal pain for the past 24 hours. She ran out of insulin 2 days ago. She appears lethargic with Kussmaul breathing. Vital signs: T 37.8\u00b0C, BP 95/60 mmHg, HR 120 bpm, RR 28/min. Labs show glucose 580 mg/dL, bicarbonate 12 mEq/L, pH 7.1, anion gap 22, positive serum ketones, Na 132 mEq/L, K 5.8 mEq/L. Calculated serum osmolality is 320 mOsm/kg.",
+    "jaccard_similarity": 0.3,
+    "common_codes": [
+      "E87.5",
+      "R06.4",
+      "E10.10"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "R53.83",
+        "evidence": "appears lethargic",
+        "description": "Other fatigue"
+      },
+      {
+        "code": "E87.1",
+        "evidence": "Na 132 mEq/L",
+        "description": "Hypo-osmolality and hyponatremia"
+      },
+      {
+        "code": "E87.20",
+        "evidence": "pH 7.1, anion gap 22",
+        "description": "Acidosis, unspecified"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "E87.2",
+        "description": "Acidosis",
+        "evidence": "pH 7.1, anion gap 22, bicarbonate 12 mEq/L"
+      },
+      {
+        "code": "E87.0",
+        "description": "Hyperosmolality and hypernatremia",
+        "evidence": "Calculated serum osmolality is 320 mOsm/kg"
+      },
+      {
+        "code": "R11.2",
+        "description": "Nausea with vomiting, unspecified",
+        "evidence": "nausea, vomiting"
+      },
+      {
+        "code": "Z91.120",
+        "description": "Patient's intentional underdosing of medication regimen due to financial hardship",
+        "evidence": "She ran out of insulin 2 days ago"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": [
+        "E87.2"
+      ]
+    }
+  },
+  {
+    "file_pair": "pred8.json - output8.json",
+    "note_text": "A 42-year-old female presents with progressive joint pain, morning stiffness lasting >2 hours, and fatigue for the past 6 months. Physical exam reveals bilateral synovitis of MCPs, PIPs, and wrists with ulnar deviation. Both knees are warm and swollen. Labs show RF positive (75 IU/mL), anti-CCP positive (>200 U/mL), ESR 55 mm/hr, CRP 3.8 mg/dL. X-rays of hands show periarticular osteopenia and early erosive changes in several MCP joints. ANA negative. Patient also reports occasional dry eyes and mouth.",
+    "jaccard_similarity": 0.09090909090909091,
+    "common_codes": [
+      "M05.79"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "M35.00",
+        "evidence": "Patient also reports occasional dry eyes and mouth.",
+        "description": "Sjogren syndrome, unspecified"
+      },
+      {
+        "code": "H04.123",
+        "evidence": "Patient also reports occasional dry eyes.",
+        "description": "Dry eye syndrome of bilateral lacrimal glands"
+      },
+      {
+        "code": "R68.2",
+        "evidence": "Patient also reports occasional dry mouth.",
+        "description": "Dry mouth, unspecified"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "M05.7A",
+        "description": "Rheumatoid arthritis with rheumatoid factor of multiple sites with involvement of other organs and systems",
+        "evidence": "RF positive (75 IU/mL), anti-CCP positive (>200 U/mL)"
+      },
+      {
+        "code": "M06.9",
+        "description": "Rheumatoid arthritis, unspecified",
+        "evidence": "X-rays of hands show periarticular osteopenia and early erosive changes"
+      },
+      {
+        "code": "R53.81",
+        "description": "Other malaise",
+        "evidence": "fatigue for the past 6 months"
+      },
+      {
+        "code": "M25.50",
+        "description": "Pain in unspecified joint",
+        "evidence": "progressive joint pain"
+      },
+      {
+        "code": "R68.83",
+        "description": "Chills",
+        "evidence": "morning stiffness lasting >2 hours"
+      },
+      {
+        "code": "H04.121",
+        "description": "Dry eye syndrome of right lacrimal gland",
+        "evidence": "Patient also reports occasional dry eyes"
+      },
+      {
+        "code": "K11.7",
+        "description": "Disturbances of salivary secretion",
+        "evidence": "reports occasional dry eyes and mouth"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": []
+    }
+  },
+  {
+    "file_pair": "pred9.json - output9.json",
+    "note_text": "A 78-year-old male with history of dementia presents from nursing home with fever, productive cough with yellow-green sputum, and increased confusion for 3 days. O2 sat 88% on room air. Physical exam reveals T 38.9\u00b0C, BP 110/70 mmHg, HR 98 bpm, RR 24/min. Decreased breath sounds and crackles in right lower lobe. Chest X-ray shows right lower lobe consolidation. Labs show WBC 15,000/\u03bcL with left shift, Na 128 mEq/L. Blood cultures drawn. Sputum culture grows Streptococcus pneumoniae. Patient diagnosed with healthcare-associated pneumonia.",
+    "jaccard_similarity": 0.25,
+    "common_codes": [
+      "E87.1",
+      "R50.9",
+      "F03.90"
+    ],
+    "codes_in_pred_only": [
+      {
+        "code": "J13",
+        "evidence": "Sputum culture grows Streptococcus pneumoniae.",
+        "description": "Pneumonia due to Streptococcus pneumoniae"
+      },
+      {
+        "code": "R09.02",
+        "evidence": "O2 sat 88% on room air.",
+        "description": "Hypoxemia"
+      },
+      {
+        "code": "R41.0",
+        "evidence": "increased confusion for 3 days",
+        "description": "Disorientation, unspecified"
+      },
+      {
+        "code": "B95.3",
+        "evidence": "Sputum culture grows Streptococcus pneumoniae.",
+        "description": "Streptococcus pneumoniae as the cause of diseases classified elsewhere"
+      }
+    ],
+    "codes_in_output_only": [
+      {
+        "code": "J15.20",
+        "description": "Pneumonia due to Streptococcus pneumoniae",
+        "evidence": "Sputum culture grows Streptococcus pneumoniae"
+      },
+      {
+        "code": "F05",
+        "description": "Delirium due to known physiological condition",
+        "evidence": "increased confusion for 3 days"
+      },
+      {
+        "code": "J96.01",
+        "description": "Acute respiratory failure with hypoxia",
+        "evidence": "O2 sat 88% on room air"
+      },
+      {
+        "code": "D72.828",
+        "description": "Elevated white blood cell count",
+        "evidence": "WBC 15,000/\u03bcL with left shift"
+      },
+      {
+        "code": "Y95",
+        "description": "Nosocomial condition",
+        "evidence": "presents from nursing home... diagnosed with healthcare-associated pneumonia"
+      }
+    ],
+    "invalid_codes": {
+      "pred": [],
+      "output": []
+    },
+    "non_billable_codes": {
+      "pred": [],
+      "output": []
+    }
+  }
+]
